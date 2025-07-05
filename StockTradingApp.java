@@ -164,3 +164,29 @@ public class StockTradingApp {
     }
 }
 
+output :PS D:\Programming\java_pra> cd "d:\Programming\java_pra\" ; if ($?) { javac StockTradingApp.java } ; if ($?) { java StockTradingApp }
+Enter your name: Shubh
+
+=== Stock Trading Menu ===
+1. View Market Data
+2. Buy Stock
+3. Sell Stock
+4. View Portfolio
+5. Transaction History
+6. Exit
+Enter choice: 4
+
+=== Portfolio for Shubh ===
+Cash Balance: $10000.00
+Total Portfolio Value: $10000.00
+
+=== Stock Trading Menu ===
+1. View Market Data
+2. Buy Stock
+3. Sell Stock
+4. View Portfolio
+5. Transaction History
+6. Exit
+Enter choice: 6
+Thank you for trading!
+PS D:\Programming\java_pra> 
