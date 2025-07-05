@@ -75,3 +75,25 @@ public class StudentGradeManager {
         scanner.close();
     }
 }
+
+OUTPUT : PS D:\Programming\java_pra> cd "d:\Programming\java_pra\" ; if ($?) { javac StudentGradeManager.java } ; if ($?) { java StudentGradeManager }
+=== Student Grade Management System ===
+Enter student name (or 'done' to finish): Shubh
+Enter grade for Shubh: 87
+Enter student name (or 'done' to finish): Raj
+Enter grade for Raj: 78
+Enter student name (or 'done' to finish): Dev
+Enter grade for Dev: 86
+Enter student name (or 'done' to finish): done
+
+=== Summary Report ===
+Total Students: 3
+Average Grade: 83.67
+Highest Grade: 87.00 (Shubh)
+Lowest Grade: 78.00 (Raj)
+
+--- Individual Records ---
+Shubh: 87.00
+Raj: 78.00
+Dev: 86.00
+PS D:\Programming\java_pra> 
